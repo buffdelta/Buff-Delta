@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.homePageImg {
+    position: absolute;
+    width: 100%;
+}
+#moonPng:hover {
+    filter: invert(100%);
+}
+#navbar {
+    margin: 0;
+    top: 0;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    opacity: 71%;
+    padding: 10px 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 15px 15px;
+}
+li a:hover {
+    color: floralwhite;
+}
+
+ul img {
+    max-width: 1.25%;
+}
+footer {
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+footer p {
+    border-color: lightgray;
+    border-top-style: solid;
+}
+
+footer img {
+    max-width: 3.5%;
+    padding: 15px 15px;
+}
+.sticky + .content {
+}
