@@ -2,9 +2,22 @@ body {
     margin: 0;
     font-family: "Times New Roman", Times, serif;
 }
-
-.homePageImg {
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+.content {
+    margin: 15px;
+    color: white;
     position: absolute;
+    top: 50px;
+}
+.content p {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.homePageImg {
     width: 100%;
 }
 #moonPng:hover {
@@ -18,13 +31,10 @@ body {
     background-color: black;
     opacity: 71%;
     padding: 10px 10px;
-}
-
-.sticky {
     position: fixed;
-    top: 0;
     width: 100%;
 }
+
 li {
     display: inline;
 }
@@ -41,7 +51,9 @@ ul img {
     max-width: 1.25%;
 }
 footer {
+    position: relative;
     margin: 50px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
@@ -54,6 +66,4 @@ footer p {
 footer img {
     max-width: 3.5%;
     padding: 15px 15px;
-}
-.sticky + .content {
 }
