@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: "Times New Roman", Times, serif;
 }
+#buffdelta {
+    text-align: left;
+}
 h1 {
     text-align: center;
     text-decoration: underline;
@@ -13,6 +16,7 @@ h1 {
     top: 50px;
 }
 .content p {
+    text-indent: 50px;
     padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -67,9 +71,8 @@ footer img {
     max-width: 3.5%;
     padding: 15px 15px;
 }
-#resume{
+.resume{
     margin: 50px;
-    display: block;
 }
 #covername {
     padding-top: 35px;
@@ -84,22 +87,19 @@ footer img {
     height: 7px;
 }
 
-.education h3{
-    height: 5px;
-    text-decoration: underline;
+h3{
+    margin: 0;
+    text-decoration-line: underline;
+    padding-top: 25px;
 }
-.education h4 {
-    height: 0;
+ h4 {
+    margin: 0;
+    padding-top: 15px;
 }
-#role {
-    height: 0;
-    font-style: italic;
-    font-size: 12px;
-    white-space: nowrap;
+
+.resume li {
+    display: list-item;
 }
 .caption {
-    height: 0;
-    display: inline;
-    white-space: nowrap;
     font-size: 12px;
 }
