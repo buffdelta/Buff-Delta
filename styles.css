@@ -67,3 +67,39 @@ footer img {
     max-width: 3.5%;
     padding: 15px 15px;
 }
+#resume{
+    margin: 50px;
+    display: block;
+}
+#covername {
+    padding-top: 35px;
+    text-decoration: none;
+    text-align: left;
+    height: 15px;
+}
+#contact-info {
+    padding-top: 5px;
+    border-top-style: double;
+    font-size: 12px;
+    height: 7px;
+}
+
+.education h3{
+    height: 5px;
+    text-decoration: underline;
+}
+.education h4 {
+    height: 0;
+}
+#role {
+    height: 0;
+    font-style: italic;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.caption {
+    height: 0;
+    display: inline;
+    white-space: nowrap;
+    font-size: 12px;
+}
