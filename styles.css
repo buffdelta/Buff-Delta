@@ -103,3 +103,8 @@ h3{
 .caption {
     font-size: 12px;
 }
+
+.caption p {
+    display: inline;
+    font-style: italic;
+}
